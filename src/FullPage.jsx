@@ -1,6 +1,6 @@
 import "./style.css";
 
 const FullPage = () => {
-  return <div>FullPage</div>;
+  return <div>FullPageMOvie</div>;
 };
 export default FullPage;
