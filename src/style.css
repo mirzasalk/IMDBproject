@@ -1,0 +1,93 @@
+.mainDiv {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/public/photo-1553095066-5014bc7b7f2d.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selectInMain {
+  display: flex;
+  margin: 0 20px 0 20px;
+  background-color: rgba(255, 255, 255, 0.504);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+.startTectH1 {
+  color: #fff;
+  text-decoration-line: none;
+}
+.startTectH1:hover {
+  color: rgba(255, 255, 0, 0.777);
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 70%;
+  padding: 20px 40px 20px 40px;
+  background-color: rgba(128, 128, 128, 0.232);
+}
+.card2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 5px 5px lightblue;
+
+  width: 70%;
+  padding: 20px 40px 20px 40px;
+}
+.sertch {
+  color: #fff;
+  margin: 10px 0px 10px 0px;
+  width: 70%;
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("../background.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.sertch input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.bodySeries {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.CardLeftField {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.rang {
+  margin-right: 30px;
+}
+.img {
+  margin-right: 30px;
+}
+
+.img:hover {
+  width: 150px;
+}
+.title:hover {
+  color: rgba(170, 170, 61, 0.536);
+}
+.Link {
+  color: black;
+  text-decoration: none;
+}
