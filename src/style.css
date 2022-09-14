@@ -82,7 +82,8 @@
 }
 
 .img:hover {
-  width: 150px;
+  transform: scale(1.1);
+  transition: 1s;
 }
 .title:hover {
   color: rgba(170, 170, 61, 0.536);

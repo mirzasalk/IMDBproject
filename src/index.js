@@ -4,7 +4,7 @@ import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import TopMovies from "./TopMovies";
 import TopSeries from "./TopSeries";
-
+import Fetch from "./fetch";
 import reportWebVitals from "./reportWebVitals";
 import Main from "./Main";
 import FullPage from "./FullPage";
@@ -13,8 +13,9 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Main />} />
-      <Route path="TopMovies" element={<TopMovies />} />
 
+      <Route path="TopMovies" element={<TopMovies />} />
+      <Route path="Fetch" element={<Fetch />} />
       <Route path="TopSeries" element={<TopSeries />} />
       <Route path="/FullPage" element={<FullPage />} />
     </Routes>

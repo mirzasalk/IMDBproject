@@ -5,12 +5,14 @@ import Card from "./Card";
 
 const TopMovies = () => {
   let clas = "";
+  // SearchMovie
+  const [searchName, setSearchName] = useState("");
   const [movies, setMovies] = useState([]);
   const fetchingMovies = async () => {
     try {
       let results;
       results = await newApi.get("/Top250Movies/k_432njb9d");
-      console.log(results.data.items);
+      console.log(results.data);
       setMovies(results.data.items);
     } catch (error) {
       console.log(error);
